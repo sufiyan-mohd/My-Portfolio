@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta property="og:title" content="exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="main-frame-container1">
+        <div class="main-frame-thq-main-frame-elm">
+          <div class="main-frame-thq-aboutme-elm">
+            <div class="main-frame-thq-group2-elm">
+              <span class="main-frame-thq-text-elm10">
+                <span class="main-frame-thq-text-elm11">My Name is</span>
+                <span class="main-frame-thq-text-elm12">Sufiyan</span>
+                <span>and I am a Freelance</span>
+              </span>
+              <span class="main-frame-thq-text-elm14">GRAPHIC</span>
+              <span class="main-frame-thq-text-elm15">Designer.</span>
+              <span class="main-frame-thq-text-elm16">
+                <span class="main-frame-text1">About</span>
+                <span></span>
+                <span class="main-frame-text3">Me</span>
+              </span>
+              <span class="main-frame-thq-text-elm17">
+                <span class="main-frame-thq-text-elm18">I’m a</span>
+                <span class="main-frame-thq-text-elm19">BCA Student</span>
+                <span>
+                  and freelance designer creating clean, modern brand
+                  identities, visuals, and websites.
+                </span>
+              </span>
+              <span class="main-frame-thq-text-elm21">
+                I focus on clarity and purpose — design that not only looks
+                sharp, but works.
+              </span>
+              <img
+                src="public/untitled8042026040413025612220-9xd-200h.png"
+                alt="Untitled8042026040413025612220"
+                class="main-frame-thq-untitled804202604041302561-elm"
+              />
+              <img
+                src="public/untitled8042026040413054712222-1s5o-200h.png"
+                alt="Untitled8042026040413054712222"
+                class="main-frame-thq-untitled804202604041305471-elm"
+              />
+              <img
+                src="public/untitled8102026040413445332311-i7t-200h.png"
+                alt="Untitled8102026040413445332311"
+                class="main-frame-thq-untitled810202604041344533-elm"
+              />
+              <img
+                src="public/untitled8042026040412594112221-vl3-200h.png"
+                alt="Untitled8042026040412594112221"
+                class="main-frame-thq-untitled804202604041259411-elm"
+              />
+              <img
+                src="public/untitled809202604041330452235-b5gh-200h.png"
+                alt="Untitled809202604041330452235"
+                class="main-frame-thq-untitled809202604041330452-elm"
+              />
+            </div>
+          </div>
+          <div class="main-frame-thq-group4-elm">
+            <img
+              src="public/untitled851202604132337501679-bqsj-300h.png"
+              alt="Untitled851202604132337501679"
+              class="main-frame-thq-untitled851202604132337501-elm"
+            />
+            <img
+              src="public/untitled8512026041323374616710-5txj-300h.png"
+              alt="Untitled8512026041323374616710"
+              class="main-frame-thq-untitled851202604132337461-elm"
+            />
+            <img
+              src="public/untitled8512026041323375616711-otz8-300h.png"
+              alt="Untitled8512026041323375616711"
+              class="main-frame-thq-untitled851202604132337561-elm"
+            />
+            <img
+              src="public/untitled8512026041323380216712-j8d-300h.png"
+              alt="Untitled8512026041323380216712"
+              class="main-frame-thq-untitled851202604132338021-elm"
+            />
+            <img
+              src="public/untitled8512026041323375026716-wa8k-300h.png"
+              alt="Untitled8512026041323375026716"
+              class="main-frame-thq-untitled851202604132337502-elm"
+            />
+            <img
+              src="public/untitled8512026041323374626717-0hf7-300h.png"
+              alt="Untitled8512026041323374626717"
+              class="main-frame-thq-untitled851202604132337462-elm"
+            />
+            <img
+              src="public/untitled8512026041323375626718-vi0o-300h.png"
+              alt="Untitled8512026041323375626718"
+              class="main-frame-thq-untitled851202604132337562-elm"
+            />
+            <img
+              src="public/untitled8512026041323380226719-6v1h-300h.png"
+              alt="Untitled8512026041323380226719"
+              class="main-frame-thq-untitled851202604132338022-elm"
+            />
+            <span class="main-frame-thq-text-elm22">
+              As a designer I’ve designed a wide range of logos fr clients
+              including individuals, startups, companies, and local businesses.
+            </span>
+          </div>
+          <div class="main-frame-thq-frame25-elm">
+            <div class="main-frame-thq-group7-elm">
+              <img
+                src="public/rectangle61192-qd0e-900h.png"
+                alt="Rectangle61192"
+                class="main-frame-thq-rectangle6-elm"
+              />
+              <img
+                src="public/untitled85920260414185643101191-60z9-200w.png"
+                alt="Untitled85920260414185643101191"
+                class="main-frame-thq-untitled8592026041418564310-elm"
+              />
+              <img
+                src="public/untitled85920260414185643111191-x18-200w.png"
+                alt="Untitled85920260414185643111191"
+                class="main-frame-thq-untitled8592026041418564311-elm"
+              />
+              <img
+                src="public/untitled85920260414185643121192-87li-200w.png"
+                alt="Untitled85920260414185643121192"
+                class="main-frame-thq-untitled8592026041418564312-elm"
+              />
+              <img
+                src="public/untitled85920260414185643131192-r1i-200w.png"
+                alt="Untitled85920260414185643131192"
+                class="main-frame-thq-untitled8592026041418564313-elm"
+              />
+              <span class="main-frame-thq-text-elm23">ZESTORY</span>
+              <span class="main-frame-thq-text-elm24">
+                Zestory is a modern food brand built for fast, fresh, and
+                flavorful everyday meals. Designed for delivery-first
+                experiences, it focuses on bold taste, quick service, and
+                simple, reliable branding.
+              </span>
+              <img
+                src="public/untitled8592026041412190141199-hnmc-300h.png"
+                alt="Untitled8592026041412190141199"
+                class="main-frame-thq-untitled859202604141219014-elm"
+              />
+              <img
+                src="public/untitled9202026042002111511212-kfrk-300h.png"
+                alt="Untitled9202026042002111511212"
+                class="main-frame-thq-untitled920202604200211151-elm"
+              />
+              <img
+                src="public/untitled9202026042002111521213-wi8f-300h.png"
+                alt="Untitled9202026042002111521213"
+                class="main-frame-thq-untitled920202604200211152-elm"
+              />
+              <img
+                src="public/untitled92220260420024907photoroom11226-dvvu-400w.png"
+                alt="Untitled92220260420024907Photoroom11226"
+                class="main-frame-thq-untitled92220260420024907-photoroom1-elm"
+              />
+              <img
+                src="public/untitled9232026042003180911227-a2xl-400w.png"
+                alt="Untitled9232026042003180911227"
+                class="main-frame-thq-untitled923202604200318091-elm"
+              />
+            </div>
+          </div>
+          <div class="main-frame-thq-group6-elm">
+            <img
+              src="public/untitled859202604141219012983-ukjb-300h.png"
+              alt="Untitled859202604141219012983"
+              class="main-frame-thq-untitled859202604141219012-elm"
+            />
+            <img
+              src="public/untitled8592026041412190131114-crrk-300h.png"
+              alt="Untitled8592026041412190131114"
+              class="main-frame-thq-untitled859202604141219013-elm"
+            />
+            <span class="main-frame-thq-text-elm25">LUMÉRA COSMETICS</span>
+            <span class="main-frame-thq-text-elm26">
+              Luméra Cosmetics offers clean, versatile beauty products designed
+              for self-expression. Its minimalist identity focuses on elegance
+              and individuality, providing a curated range that supports both
+              everyday looks and bold styles.
+            </span>
+            <img
+              src="public/untitled859202604141856436986-y89r-200w.png"
+              alt="Untitled859202604141856436986"
+              class="main-frame-thq-untitled859202604141856436-elm"
+            />
+            <img
+              src="public/untitled859202604141856437987-jkn-200w.png"
+              alt="Untitled859202604141856437987"
+              class="main-frame-thq-untitled859202604141856437-elm"
+            />
+            <img
+              src="public/untitled8592026041418564399911-f19e-200w.png"
+              alt="Untitled8592026041418564399911"
+              class="main-frame-thq-untitled859202604141856439-elm"
+            />
+            <img
+              src="public/untitled859202604141856438988-x98a-200w.png"
+              alt="Untitled859202604141856438988"
+              class="main-frame-thq-untitled859202604141856438-elm"
+            />
+            <img
+              src="public/img20260419190614png11116-l6s-300h.png"
+              alt="IMG20260419190614png11116"
+              class="main-frame-thq-img20260419190614png1-elm"
+            />
+            <img
+              src="public/img20260419190614png21117-ee66-300h.png"
+              alt="IMG20260419190614png21117"
+              class="main-frame-thq-img20260419190614png2-elm"
+            />
+            <img
+              src="public/untitled9142026041919334011119-emdv-300w.png"
+              alt="Untitled9142026041919334011119"
+              class="main-frame-thq-untitled914202604191933401-elm"
+            />
+            <img
+              src="public/img20260419193845png11111-2us-300w.png"
+              alt="IMG20260419193845png11111"
+              class="main-frame-thq-img20260419193845png1-elm"
+            />
+            <img
+              src="public/untitled9082026041916310011111-s7pc-300w.png"
+              alt="Untitled9082026041916310011111"
+              class="main-frame-thq-untitled908202604191631001-elm"
+            />
+          </div>
+          <div class="main-frame-thq-group8-elm">
+            <img
+              src="public/untitled8592026041412190151292-zygb-300h.png"
+              alt="Untitled8592026041412190151292"
+              class="main-frame-thq-untitled859202604141219015-elm"
+            />
+            <img
+              src="public/untitled8592026041412190161315-jxha-300h.png"
+              alt="Untitled8592026041412190161315"
+              class="main-frame-thq-untitled859202604141219016-elm"
+            />
+            <span class="main-frame-thq-text-elm27">HAVEN INFRA</span>
+            <span class="main-frame-thq-text-elm28">
+              Haven Infra is a large-scale infrastructure company delivering
+              reliable, high-quality construction and development solutions.
+              Built on precision and trust, it focuses on durable projects,
+              efficient execution, and long-term impact.
+            </span>
+            <img
+              src="public/untitled85920260414185643141291-o4yh-200w.png"
+              alt="Untitled85920260414185643141291"
+              class="main-frame-thq-untitled8592026041418564314-elm"
+            />
+            <img
+              src="public/untitled85920260414185643151291-vsk-200w.png"
+              alt="Untitled85920260414185643151291"
+              class="main-frame-thq-untitled8592026041418564315-elm"
+            />
+            <img
+              src="public/untitled85920260414185643161291-b9i5-200w.png"
+              alt="Untitled85920260414185643161291"
+              class="main-frame-thq-untitled8592026041418564316-elm"
+            />
+            <img
+              src="public/untitled85920260414185643171291-szwp-200w.png"
+              alt="Untitled85920260414185643171291"
+              class="main-frame-thq-untitled8592026041418564317-elm"
+            />
+            <img
+              src="public/untitled9332026042019044311302-7t47-300h.png"
+              alt="Untitled9332026042019044311302"
+              class="main-frame-thq-untitled933202604201904431-elm"
+            />
+            <img
+              src="public/untitled9332026042019044321303-cger-300h.png"
+              alt="Untitled9332026042019044321303"
+              class="main-frame-thq-untitled933202604201904432-elm"
+            />
+            <img
+              src="public/rectangle71327-bthh-500w.png"
+              alt="Rectangle71327"
+              class="main-frame-thq-rectangle7-elm"
+            />
+          </div>
+          <div class="main-frame-thq-footer-elm">
+            <div class="main-frame-thq-group9-elm">
+              <span class="main-frame-thq-text-elm29">LET’S WORK TOGETHER</span>
+              <span class="main-frame-thq-text-elm30">Got an idea?</span>
+              <a
+                href="https://wa.me/916360067460"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-frame-link1"
+              >
+                <div class="main-frame-thq-frame17-elm">
+                  <img
+                    src="public/whatsappi175-s4kw.svg"
+                    alt="whatsappI175"
+                    class="main-frame-thq-whatsapp-elm"
+                  />
+                  <span class="main-frame-thq-text-elm31">
+                    Message on WhatsApp
+                  </span>
+                </div>
+              </a>
+              <span class="main-frame-thq-text-elm32">
+                Available for freelance work • Fast turnaround • Branding &amp;
+                UI
+              </span>
+              <span class="main-frame-thq-text-elm33">
+                Usually replies within a few hours
+              </span>
+              <span class="main-frame-thq-text-elm34">
+                For general inquiries, feel free to use any channel.
+              </span>
+              <a
+                href="https://www.instagram.com/zavrodesign.co?igsh=YTkwbnQ4ODlkY3o2"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-frame-link2"
+              >
+                <div class="main-frame-thq-frame22-elm">
+                  <img
+                    src="public/vector1947-o2r4.svg"
+                    alt="Vector1947"
+                    class="main-frame-thq-vector-elm1"
+                  />
+                  <span class="main-frame-thq-text-elm35">Instagram</span>
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sufiyan-mohammed"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-frame-link3"
+              >
+                <div class="main-frame-thq-frame24-elm">
+                  <img
+                    src="public/vector1946-5qja.svg"
+                    alt="Vector1946"
+                    class="main-frame-thq-vector-elm2"
+                  />
+                  <span class="main-frame-thq-text-elm36">Linkedin</span>
+                </div>
+              </a>
+              <a
+                href="mailto:zavrodesign@gmail.com?subject=Project%20Inquiry&amp;body=Hi%20Sufiyan,%20I%20have%20a%20project%20for%20you."
+                target="_blank"
+                rel="noreferrer noopener"
+                class="main-frame-link4"
+              >
+                <div class="main-frame-thq-frame23-elm">
+                  <div class="main-frame-thq-group-elm">
+                    <img
+                      src="public/vector1944-5pc.svg"
+                      alt="Vector1944"
+                      class="main-frame-thq-vector-elm3"
+                    />
+                    <img
+                      src="public/vector1944-8ci.svg"
+                      alt="Vector1944"
+                      class="main-frame-thq-vector-elm4"
+                    />
+                  </div>
+                  <span class="main-frame-thq-text-elm37">Mail</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="main-frame-thq-hero-section-elm">
+            <div class="main-frame-thq-group1-elm">
+              <span class="main-frame-thq-text-elm38">PORTFOLIO</span>
+              <span class="main-frame-thq-text-elm39">My</span>
+              <span class="main-frame-thq-text-elm40">Sufiyan</span>
+              <span class="main-frame-thq-text-elm41">
+                TURNING IDEAS INTO CLEAN, MODERN BRANDS, VISUALS, AND WEBSITES.
+              </span>
+              <img
+                src="public/rectangle253-56hr-700h.png"
+                alt="Rectangle253"
+                class="main-frame-thq-rectangle2-elm"
+              />
+              <img
+                src="public/rectangle56-tt1-500h.png"
+                alt="Rectangle56"
+                class="main-frame-thq-rectangle-elm"
+              />
+              <img
+                src="public/portfolio202604061503070000page0001photoroom16489-7wh-200w.png"
+                alt="PORTFOLIO202604061503070000page0001Photoroom16489"
+                class="main-frame-thq-portfolio202604061503070000page0001-photoroom1-elm"
+              />
+              <span class="main-frame-thq-text-elm42">
+                <span class="main-frame-text4">MOHAMMED</span>
+                <span class="main-frame-text5"></span>
+                <span class="main-frame-text6">SUFIYAN</span>
+              </span>
+              <div class="main-frame-thq-view-work-elm">
+                <span class="main-frame-thq-text-elm43">VIEW WORK →</span>
+              </div>
+            </div>
+          </div>
+          <div class="main-frame-thq-logofolio-elm1">
+            <img
+              src="public/logofolio946-q3sf-900h.png"
+              alt="LOGOFOLIO946"
+              class="main-frame-thq-logofolio-elm2"
+            />
+            <span class="main-frame-thq-text-elm44">LOGOFOLIO.</span>
+            <div class="main-frame-thq-frame6-elm">
+              <img
+                src="public/untitled84120260410210551photoroom1335-nbpn-300h.png"
+                alt="Untitled84120260410210551Photoroom1335"
+                class="main-frame-thq-untitled84120260410210551-photoroom1-elm"
+              />
+              <img
+                src="public/untitled84120260410210600photoroom1336-mrua-300h.png"
+                alt="Untitled84120260410210600Photoroom1336"
+                class="main-frame-thq-untitled84120260410210600-photoroom1-elm"
+              />
+              <img
+                src="public/untitled84120260410211014photoroom1337-cqij-300h.png"
+                alt="Untitled84120260410211014Photoroom1337"
+                class="main-frame-thq-untitled84120260410211014-photoroom1-elm"
+              />
+              <img
+                src="public/untitled84120260410210556photoroom1338-7fu-300h.png"
+                alt="Untitled84120260410210556Photoroom1338"
+                class="main-frame-thq-untitled84120260410210556-photoroom1-elm"
+              />
+            </div>
+            <span class="main-frame-thq-text-elm45">
+              Crafting visual systems for brands that demand clarity,
+              scalability, and impact
+            </span>
+            <span class="main-frame-thq-text-elm46">THERAPEUTIC FLOW</span>
+            <span class="main-frame-thq-text-elm47">GEOMETRIC ASCENSION</span>
+            <span class="main-frame-thq-text-elm48">KINETIC STRUCTURE</span>
+            <span class="main-frame-thq-text-elm49">LITHIC GEOMETRY</span>
+            <img
+              src="public/vector12062-5eyy.svg"
+              alt="Vector12062"
+              class="main-frame-thq-vector1-elm"
+            />
+          </div>
+          <div class="main-frame-thq-brandings-elm">
+            <div class="main-frame-thq-group5-elm">
+              <img
+                src="public/rectangle5948-s1pp-1500w.png"
+                alt="Rectangle5948"
+                class="main-frame-thq-rectangle5-elm"
+              />
+              <span class="main-frame-thq-text-elm50">BRANDINGS.</span>
+              <img
+                src="public/untitled859202604141219011816-9qd-300h.png"
+                alt="Untitled859202604141219011816"
+                class="main-frame-thq-untitled859202604141219011-elm"
+              />
+              <img
+                src="public/untitled8592026041418564318110-iwxo-200w.png"
+                alt="Untitled8592026041418564318110"
+                class="main-frame-thq-untitled859202604141856431-elm"
+              />
+              <img
+                src="public/untitled8592026041418564328111-kp5-200w.png"
+                alt="Untitled8592026041418564328111"
+                class="main-frame-thq-untitled859202604141856432-elm"
+              />
+              <img
+                src="public/untitled8592026041418564338113-71qd-200w.png"
+                alt="Untitled8592026041418564338113"
+                class="main-frame-thq-untitled859202604141856433-elm"
+              />
+              <img
+                src="public/untitled8592026041418564348115-t4gb-200w.png"
+                alt="Untitled8592026041418564348115"
+                class="main-frame-thq-untitled859202604141856434-elm"
+              />
+              <span class="main-frame-thq-text-elm51">Pay + Next = Paynex</span>
+              <span class="main-frame-thq-text-elm52">
+                A modern payment platform focused on fast, secure, and seamless
+                transactions. The name captures its goal: simplifying the next
+                generation of digital payments. This is an abstract lettermark,
+                where the “P” is shaped with motion-inspired cuts to represent
+                speed, flow, and instant transactions.
+              </span>
+              <span class="main-frame-thq-text-elm53">
+                Branding is the elimination of noise. It’s the art of ensuring
+                that every visual touchpoint, from a favicon to a billboard,
+                speaks with a single, authoritative voice that makes your
+                competition look like an afterthought.
+              </span>
+              <img
+                src="public/img20260414200751png18326-6rul-300h.png"
+                alt="IMG20260414200751png18326"
+                class="main-frame-thq-img20260414200751png1-elm"
+              />
+              <img
+                src="public/untitled8892026041504473818738-dvj-700w.png"
+                alt="Untitled8892026041504473818738"
+                class="main-frame-thq-untitled889202604150447381-elm"
+              />
+              <img
+                src="public/img20260414134038png118950-45z6-300w.png"
+                alt="IMG20260414134038png118950"
+                class="main-frame-thq-img20260414134038png11-elm"
+              />
+              <img
+                src="public/vector22073-8ig8.svg"
+                alt="Vector22073"
+                class="main-frame-thq-vector2-elm"
+              />
+            </div>
+          </div>
+          <div class="main-frame-thq-navigationbar-elm">
+            <div class="main-frame-thq-group10-elm">
+              <span class="main-frame-thq-text-elm54">Mohammed Sufiyan</span>
+              <span class="main-frame-thq-text-elm55">Brandings</span>
+              <div class="main-frame-thq-frame26-elm">
+                <span class="main-frame-thq-text-elm56">Contact</span>
+              </div>
+              <span class="main-frame-thq-text-elm57">Logofolio</span>
+              <span class="main-frame-thq-text-elm58">About Me</span>
+            </div>
+          </div>
+        </div>
+        <a href="https://play.teleporthq.io/signup" class="main-frame-link5">
+          <div aria-label="Sign up to TeleportHQ" class="main-frame-container2">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="main-frame-icon1"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="main-frame-text7">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link rel="canonical" href="https://untitled-a9ltgu.teleporthq.app/" />
+    </div>
+  </body>
+</html>
